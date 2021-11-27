@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Libre Vencejo - Inicio de Sesión</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header class="cabecera">
+		<nav class="nav">
+			<img class="logo" src="img/logo.png" width="210" height="100" alt="Logo"/>
+			<ul class="nav-botones">
+				<li><a href="index.html">Ir al inicio</a></li>
+				<li><a class="boton boton-celeste" href="registrarse.html">REGISTRATE</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="logueo">
+		<div class="imagen">
+			<img src="img/inicio-sesion1.png" width="840" height="840" alt="Inicio de sesión"/>
+			<img src="img/inicio-sesion2.png" width="840" height="840" alt="Inicio de sesión"/>
+			<img src="img/inicio-sesion3.png" width="840" height="840" alt="Inicio de sesión"/>
+			<img src="img/inicio-sesion4.png" width="840" height="840" alt="Inicio de sesión"/>
+		</div>
+		<div class="logueo-form">
+			<h2 class="blanco">Inicia sesión</h2>
+			<form method="post" action="#" target="_self" enctype="text/plain">
+				<label for="email">Email </label>
+				<input type="email" name="email" id="email" required> 
+				<label for="contraseña"> Contraseña </label> 
+				<input type="password" name="contraseña" id="contraseña" maxlength="20" required>
+				<label class="recordarme"> Recordarme <input type="checkbox" name="recordarme" value="recordarme" id="recordarme"></label>
+				<a class="olvidaste" href="#">¿Olvidaste la contraseña?</a>
+			</form>
+			<a class="boton boton-naranja" href="tienda-ppal.html">COMENZAR</a>
+		</div>
+	</main>
+</body>
+</html>

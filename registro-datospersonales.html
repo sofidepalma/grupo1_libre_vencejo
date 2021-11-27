@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Libre Vencejo - Datos Personales</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header class="cabecera">
+		<img src="img/logo.png" width="210" height="100" alt="Logo"/>
+	</header>
+	<main class="datos">
+		<div class="info-datos">
+			<h2 class="blanco">Mis datos</h2>
+			<p class="blanco">Con esta información personal, vamos a poder contactarte y enviarte nuestros productos hasta la puerta de tu casa. Estos datos solo podés verlos vos y nosotros. Totalmente seguro y confidencial.</p>
+		</div>
+		<div class="info-datos">
+			<h3 class="blanco">Ubicación</h3>
+			<form method="post" action="#" target="_self" enctype="text/plain">
+				<label for="provincia">Provincia</label>
+				<select name="provincia" id="provincia">
+					<option selected disabled></option>
+					<option value="buenos-aires">Buenos Aires</option>
+					<option value="caba">CABA</option>
+					<option value="catamarca">Catamarca</option>
+					<option value="chaco">Chaco</option>
+					<option value="chubut">Chubut</option>
+					<option value="cordoba">Córdoba</option>
+					<option value="corrientes">Corrientes</option>
+					<option value="entre-rios">Entre Ríos</option>
+					<option value="formosa">Formosa</option>
+					<option value="jujuy">Jujuy</option>
+					<option value="la-pampa">La Pampa</option>
+					<option value="la-rioja">La Rioja</option>
+					<option value="mendoza">Mendoza</option>
+					<option value="misiones">Misiones</option>
+					<option value="neuquen">Neuquén</option>
+					<option value="rio-negro">Río Negro</option>
+					<option value="salta">Salta</option>
+					<option value="san-juan">San Juan</option>
+					<option value="san-luis">San Luis</option>
+					<option value="santa-cruz">Santa Cruz</option>
+					<option value="santa-fe">Santa Fe</option>
+					<option value="santiago-del-estero">Santiago del Estero</option>
+					<option value="tierra-del-fuego">Tierra del Fuego</option>
+					<option value="tucuman">Tucumán</option>
+				</select>
+				<label for="localidad">Localidad</label>
+				<input type="text" id="localidad" name="localidad" required>
+				<label for="direccion">Dirección</label>
+				<input type="text" id="direccion" name="direccion" required>
+				<label for="postal">Código Postal</label>
+				<input type="number" id="postal" name="postal" required>
+			</form>
+		</div>
+		<div class="info-datos">
+			<h3 class="blanco">Contacto</h3>
+			<form method="post" action="#" target="_self" enctype="text/plain">
+				<label for="tel">Teléfono</label>
+				<input type="tel" id="tel" name="tel" placeholder="(Código de área) Número">
+				<label for="celular">Celular</label>
+				<input type="tel" id="celular" name="celular" placeholder="(Código de área) Número">
+			</form>
+			<a class="boton boton-celeste" href="#modal-box">FINALIZAR</a>
+		</div>
+		<div id="modal-box" class="modal">
+			<img src="img/listo.png" width="70" height="70" alt="Confirmación"/>
+			<h2 class="blanco">¡Completaste tu perfil!</h2>
+			<p class="blanco">Comenzá a disfrutar de toda la experiencia venceja</p>
+			<a class="boton boton-outline" href="tienda-ppal.html">IR A LA TIENDA</a>
+		</div>
+	</main>	
+</body>
+</html>

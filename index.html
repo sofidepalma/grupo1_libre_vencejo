@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, inicial-scale=1.0">
+<title>Libre Vencejo</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<!-- Menú hamburguesa -->
+<script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+<!-- Galería de imágenes -->
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<header class="cabecera">
+		<img class="logo" src="img/logo.png" width="210" height="100" alt="Logo"/>
+		<input type="checkbox" id="check">
+		<label for="check" class="icon-menu">
+			<i class="fas fa-bars"></i>
+		</label>
+		<nav class="nav">
+			<ul class="nav-secciones">
+				<li><a href="#tipo-de-cuerpos">Tipo de cuerpo</a></li>
+				<li><a href="#informacion-talles">Ley de talles</a></li>
+				<li><a href="#informacion-talles">Mis medidas</a></li>
+				<li class="boton-menu"><a href="#productos">Productos</a>
+					<ul class="menu">
+						<li><a href="tienda-pantalon.html">Pantalones</a></li>
+						<li><a href="tienda-remera.html">Remeras</a></li>
+						<li><a href="tienda-buzo.html">Buzos</a></li>
+						<li><a href="tienda-vestido.html">Vestidos</a></li>
+					</ul>
+				</li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+			<ul class="nav-botones">
+				<li><a href="iniciodesesion.html">Inicia sesión</a></li>
+				<li><a class="boton boton-celeste" href="registrarse.html">REGISTRATE</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="home">
+			<div>
+			  <h1>Una tienda con ropa pensada para vos</h1>
+			  <p class="gris">En Libre Vencejo pensamos que todos podemos elegir de qué manera vestirnos. Por eso, ofrecemos un amplio catálogo que se adapta a todo tipo de cuerpos.</p>
+			  <a class="boton boton-naranja" href="registrarse.html">ENCONTRÁ TU ESTILO</a>
+			</div>
+			<a class="scroll" href="#tipo-de-cuerpos">
+				<img src="img/scroll.png" width="48" height="48" alt="Scroll"/>
+			</a>  
+			<img class="mujeres" src="img/img-header.png" width="800" height="860" alt="Grupos de mujeres"/>
+		</section>
+		<section id="tipo-de-cuerpos">
+	    	<img src="img/img-tipos-de-cuerpo.png" width="960" height="785" alt="No al talle único"/>
+			<div>
+				<h2 class="gris">Todos los cuerpos son reales</h2>
+				<p class="gris">Existen diversos tipos de cuerpos y cada uno de estos cuenta con varios rasgos y características que no solo nos dan la oportunidad de vestir de manera única, sino que también nos da la posibilidad de lucir cada parte de nuestro cuerpo. ¿Conoces tu tipo de cuerpo y cómo aprovechar cada aspecto de él?</p>
+				<a class="boton boton-naranja" href="#">MI TIPO DE CUERPO</a>
+			</div>
+		</section>
+		<section id="informacion-talles">
+			<article class="ley-talles">
+				<h2 class="blanco">Vestirse, es un derecho</h2>
+				<p class="blanco">Se viene un sistema de talles que nos incluirá a todas y todos. Conocé todo sobre la Ley de Talles en Argentina.</p>
+				<a class="boton boton-outline" href="#">LEER MÁS</a>
+			</article>
+			<article class="info-medidas">
+				<h2 class="blanco">¿Cómo saber mis medidas?</h2>
+				<p class="blanco">¡Primero a lo primero! Tenés que conseguir un centímetro para luego tomar las medidas correspondiente a la prenda que elijas.</p>
+				<a class="boton boton-outline" href="#">ARRANQUEMOS</a>
+			</article>
+		</section>
+		<section id="productos">
+			<h2 class="gris">Conocé nuestros productos</h2>
+			<div class="galeria">
+				<a class="galeria-home" href="img/galeria/tilo_thumbnail.jpg" data-fancybox="gallery" data-caption="Vestido Tilo">
+					<p class="blanco" >Vestido Tilo</p>
+					<img src="img/galeria/tilo.jpg" alt="Vestido Tilo" />
+				</a>
+				<a class="galeria-home" href="img/galeria/arcoiris_thumbnail.jpg" data-fancybox="gallery" data-caption="Conjunto Arcoiris">
+					<p class="blanco">Conjunto Arcoiris</p>
+					<img src="img/galeria/arcoiris.jpg" alt="Conjunto Arcoiris" />
+				</a>
+				<a class="galeria-home" href="img/galeria/lavanda_thumbnail.jpeg" data-fancybox="gallery" data-caption="Vestido Lavanda">
+					<p class="blanco">Vestido Lavanda</p>
+					<img src="img/galeria/lavanda.jpg" alt="Vestido Lavanda" />
+				</a>
+				<a class="galeria-home" href="img/galeria/aleli_thumbnail.jpg" data-fancybox="gallery" data-caption="Crop Top Aleli">
+					<p class="blanco">Crop Top Aleli</p>
+					<img src="img/galeria/aleli.jpg" alt="Crop Top Aleli" />
+				</a>
+				<a class="galeria-home" href="img/galeria/ciruelo_thumbnail.jpg" data-fancybox="gallery" data-caption="Pantalón Ciruelo">
+					<p class="blanco">Pantalón Ciruelo</p>
+					<img src="img/galeria/ciruelo.jpg" alt="Pantalón Ciruelo" />
+				</a>
+				<a class="galeria-home" href="img/galeria/nuben_thumbnail.jpg" data-fancybox="gallery" data-caption="Short Nube Negro">
+					<p class="blanco">Short Nube Negro</p>
+					<img src="img/galeria/nuben.jpg" alt="Short Nube Negro" />
+				</a>
+				<a class="galeria-home" href="img/galeria/cielo_thumbnail.jpg" data-fancybox="gallery" data-caption="Cápsula Cielo">
+					<p class="blanco">Cápsula Cielo</p>
+					<img src="img/galeria/cielo.jpg" alt="Cápsula Cielo" />
+				</a>
+				<a class="galeria-home" href="img/galeria/lila_thumbnail.jpg" data-fancybox="gallery" data-caption="Blusa Nube">
+					<p class="blanco">Blusa Nube</p>
+					<img src="img/galeria/lila.jpg" alt="Blusa Nube" />
+				</a>
+			</div>
+		</section>
+		<section id="contacto">
+			<div class="contacto-info">
+				<h2 class="blanco">¡Estamos en contacto!</h2>
+				<p class="blanco">Si necesitas ayuda, tenés una pregunta sobre tu pedido o simplemente necesitas a alguien que te haga sonreír ¡estamos aquí para ayudarte! </p>
+				<div class="contacto-icon">
+					<img src="img/icono-telefono.png" width="27" height="31" alt="Teléfono"/>
+					<p class="blanco">11-6372-7957</p>
+				</div>
+				<div class="contacto-icon">
+					<img src="img/icono-email.png" width="27" height="31" alt="Email"/>
+					<a href="mailto:librevencejo@gmail.com">librevencejo@gmail.com</a>
+				</div>
+		    	<img class="buzon" src="img/img-contacto.png" width="400" height="320" alt="Buzón"/>
+			</div>
+			<form method="post" action="mailto:librevencejo@gmail.com?subject=Email enviado desde el formulario" target="_blank" enctype="text/plain">
+  				<label for="nombre">Nombre</label>
+			  	<input type="text" id="nombre" name="nombre" required>
+			  	<label for="email">E-mail</label>
+			  	<input type="email" id="email" name="email" required>
+				<label for="mensaje">Tu mensaje</label>
+			  	<textarea name="mensaje" id="mensaje" maxlength="600"></textarea>
+				<input class="boton boton-celeste" type="submit" value="ENVIAR" forenctype="text/plain">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<nav class="nav">
+			<ul class="nav-secciones">
+				<li><a href="#tipo-de-cuerpos">Tipo de cuerpo</a></li>
+				<li><a href="#informacion-talles">Ley de talles</a></li>
+				<li><a href="#informacion-talles">Mis medidas</a></li>
+				<li><a href="#productos">Productos</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+		<div>
+			<a href="https://www.instagram.com/libre_vencejo/" target="_blank">
+				<img src="img/icono-instagram.png" width="26" height="90" alt="Instagram"/>
+			</a>
+			<a href="https://www.facebook.com/LibreVencejo" target="_blank">
+				<img src="img/icono-facebook.png" width="26" height="90" alt="Facebook"/>
+			</a>
+		</div>
+	</footer>
+	
+<!-- JS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+</body>
+</html>
